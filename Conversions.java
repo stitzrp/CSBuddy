@@ -8,8 +8,6 @@ public class Conversions {
 	 * Recursively calculates an output string that contains the 
 	 * binary representation of a decimal number
 	 */
-	//test change
-	
 	protected static String decToBinary(String i) {
 		long num=Long.parseLong(i);
 		if(num>0)
